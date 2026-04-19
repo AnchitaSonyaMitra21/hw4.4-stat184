@@ -15,12 +15,28 @@ execute:
   message: false
 ---
 
+## Data Source and Reproducibility
+
+Airport Data:
+The airport passenger data were compiled manually based on publicly available information from the Wikipedia article "List of Busiest Airports by Passenger Traffic." The data set is included directly in the code, so no external file is required.
+
+Calcium Data set:
+The calcium.csv data set was provided as part of the STAT 184 assignment materials.It is included in this repository and accessed using a relative file path.
+
+Monte Carlo Simulation:
+The Monte Carlo data are generated entirely within the code using random sampling (runif and dnorm in R). No external data sources are required.
+
+Reproducibility:
+All data used in this analysis are either included in the repository or generated within the code, making the analysis fully self-contained and reproducible.
+
+
 # Busiest Airports Analysis
 
 The six busiest global airports showed strong but uneven recovery in passenger traffic between 2020 and 2025. Atlanta (ATL) remained the dominant leader throughout the period, while other airports recovered at different rates due to regional factors. The table and plot below together illustrate both the exact passenger volumes and the year-by-year trends.
 
 ```{r}
 # Coding Style: Tidyverse Style Guide (consistent naming, piping, and formatting)
+
 #| echo: false
 #| warning: false
 #| message: false
