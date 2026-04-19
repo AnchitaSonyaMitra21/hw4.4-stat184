@@ -17,3 +17,4 @@ Steps followed:
 Updated documentation to improve clarity. 
 Minor update to link issue.
 Closing issue #2
+Closing issue #3
