@@ -22,3 +22,18 @@ Closing issue #3
 Final refinement of project documentation and structure.
 
 Final formatting improvement.
+
+
+## Data Source
+The dataset used in this project (calcium.csv) was provided as part of the STAT 184 HW 4.3 assignment. It contains calcium measurements collected over multiple years for analysis.
+
+## Repository Organization
+This repository is structured as follows:
+- HW 4.3.qmd → Source file containing analysis and code
+- HW-4.3.pdf → Final rendered report
+- calcium.csv → Dataset used in the analysis
+- README.md → Overview of the project and workflow
+
+## Contact Information
+Name: Anchita Mitra  
+Email: anchitasonyamitra@gmail.com (or avm7491@psu.edu)
