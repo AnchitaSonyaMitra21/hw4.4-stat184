@@ -1,6 +1,8 @@
 ---
 title: "HW 4.3: Reproducible Data Analysis"
 author: "Anchita Mitra"
+date: "April 12, 2026"
+date-modified: "April 19, 2026"
 format:
   pdf:
     code-overflow: wrap
@@ -18,6 +20,7 @@ execute:
 The six busiest global airports showed strong but uneven recovery in passenger traffic between 2020 and 2025. Atlanta (ATL) remained the dominant leader throughout the period, while other airports recovered at different rates due to regional factors. The table and plot below together illustrate both the exact passenger volumes and the year-by-year trends.
 
 ```{r}
+# Coding Style: Tidyverse Style Guide (consistent naming, piping, and formatting)
 #| echo: false
 #| warning: false
 #| message: false
