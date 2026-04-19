@@ -20,3 +20,5 @@ Closing issue #2
 Closing issue #3
 
 Final refinement of project documentation and structure.
+
+Final formatting improvement.
