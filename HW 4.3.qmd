@@ -1,8 +1,6 @@
 ---
 title: "HW 4.3: Reproducible Data Analysis"
 author: "Anchita Mitra"
-date: "April 2026"
-date-modified: last-modified
 format:
   pdf:
     code-overflow: wrap
@@ -14,11 +12,7 @@ execute:
   warning: false
   message: false
 ---
-## Introduction
 
-This report presents a reproducible data analysis using Quarto. It includes two main components: an analysis of global airport passenger trends and a Monte Carlo simulation to approximate the area under a probability distribution. The goal is to demonstrate data visualization, interpretation, and reproducible workflows using R.
-
----
 # Busiest Airports Analysis
 
 The six busiest global airports showed strong but uneven recovery in passenger traffic between 2020 and 2025. Atlanta (ATL) remained the dominant leader throughout the period, while other airports recovered at different rates due to regional factors. The table and plot below together illustrate both the exact passenger volumes and the year-by-year trends.
@@ -30,6 +24,7 @@ The six busiest global airports showed strong but uneven recovery in passenger t
 #| tidy: true
 #| label: tbl-airports-table
 #| tbl-cap: "Total Passengers (in Millions) for the Six Busiest Global Airports: 2020-2025"
+
 
 # Load required libraries for data manipulation, table creation, and visualization
 library(tidyr)
@@ -69,13 +64,16 @@ airports_wide |>
   )
 ```
 
+
 ```{r}
 #| echo: false
 #| warning: false
 #| message: false
-#| label: fig-airports-plot
 #| fig.pos: "H"
+#| label: fig-airports-plot
 #| fig-cap: "Annual Passenger Traffic Trends for the Six Busiest Global Airports (2020–2025)"
+#| fig-alt: "Line plot showing passenger trends for six airports from 2020 to 2025"
+
 
 # Convert dataset from wide format to long (tidy) format for plotting
 # This creates two columns: Year and Passengers_Millions
@@ -132,7 +130,8 @@ The Monte Carlo method approximates the definite integral of a function by rando
 #| warning: false
 #| message: false
 #| label: fig-monte-carlo
-#| fig-cap: "Small-multiples view of Monte Carlo integration for the standard normal distribution at increasing sample sizes (n = 10, 100, 1,000, 10,000)"
+#| fig-cap: "Monte Carlo integration with increasing sample sizes"
+#| fig-alt: "Scatter plot showing random points approximating area under a normal distribution curve"
 
 # Load required libraries for data manipulation and plotting
 library(ggplot2)
