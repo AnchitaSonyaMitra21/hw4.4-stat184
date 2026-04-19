@@ -13,3 +13,5 @@ Steps followed:
 - HW 4.3.qmd → Quarto source file
 - HW-4.3.pdf → Final rendered analysis
 - calcium.csv → Dataset used for analysis
+
+Updated documentation to improve clarity.
